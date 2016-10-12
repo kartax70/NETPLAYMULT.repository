@@ -13,40 +13,4 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
-<addon id="plugin.video.netplay" version="2.0.9" name="NETPLAY Busca" provider-name="NETPLAY">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.netplay" version="1.0.0" />
-		<import addon="script.netplay.artwork" version="1.0.4" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="NETPLAY.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">NETPLAY</summary>
-		<description lang="en">NETPLAY RepositÃ³rio MultimÃ­dia </description>
-		<platform>all</platform>
-		</extension>
-</addon>
-
-<addon id="plugin.video.netplayrede" name="[B][COLOR blue]NETPLAY[/B][/COLOR]" version="0.0.1" provider-name="NETPLAY">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"/>
-	<import addon="script.module.beautifulsoup4"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">NETPLAY Filmes e SÃ©ries Dublados</summary>
-	<description lang="en">NETPLAY RepositÃ³rio MultimÃ­dia</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 </addons>
